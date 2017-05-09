@@ -1,0 +1,22 @@
+.c-menu {
+    font-size: 14px;
+}
+
+.c-menu__list {
+    padding: 0;
+    margin: 0;
+    color:chocolate;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-menu__list__item {
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+
+.c-menu__list__item:hover {
+    background-color:lightcoral;
+    color: white;
+}

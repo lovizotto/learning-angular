@@ -1,0 +1,8 @@
+<div class="c-menu">
+    <h1>{{getPhrase()}}</h1>
+
+    <ul *ngFor="let item of items" class="c-menu__list">
+        <li class="c-menu__list__item" (click)="onClickEvent({{item}})">{{item}}</li>
+    </ul>
+
+</div>
